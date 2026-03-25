@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Gitlab; module Types; end; end; end; end
+
 # Gitlab resources
 require_relative 'pangea/resources/gitlab_application/resource'
 require_relative 'pangea/resources/gitlab_application_settings/resource'
